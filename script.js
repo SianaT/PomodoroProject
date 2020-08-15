@@ -33,6 +33,7 @@ startButton.addEventListener("click", function() {
     resetButton.onclick = function () {
         clearInterval(myTimer);
         timer.innerHTML = "25:00";
+        clearInterval(time = startingMinutes * 60);
     
     };
     
