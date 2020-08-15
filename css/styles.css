@@ -1,0 +1,187 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+.steps-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: 2%;
+  color: #3f4545;
+}
+
+.tips-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+}
+
+.benefits-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: 7%;
+  color: #3f4545;
+}
+
+/* Navbar section */
+.navbar-section {
+  padding: 5% 12%;
+  background-color: #d63447;
+}
+
+.navbar-brand {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.4rem;
+  text-align: left;
+
+
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Pomodoro section */
+
+#Pomodoro-section {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #d63447;
+}
+
+.timer {
+  padding-bottom: 10%;
+}
+
+.clock {
+  font-size: 9.5rem;
+  font-weight: 800;
+  padding: 1% 12% 0.2%;
+  margin-bottom: 3%;
+}
+
+.timer-buttons {
+  border-radius: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8% 2%;
+  background-color: white;
+  margin: 0 3% 0;
+  border: white;
+  color: #3f4545;
+}
+
+.timer-buttons:hover {
+  background-color: #ff9461;
+  color: white;
+}
+
+/* Steps section */
+
+
+.about-container {
+  padding: 10%;
+}
+
+.explanation{
+  font-size: 1.2rem;
+  padding-bottom: 8%;
+  line-height: 1.5;
+}
+
+.step-numbers {
+  width: 40%;
+}
+
+.step-text {
+  padding: 10% 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Rules & Tips section */
+
+.tips-container {
+  background-color: #f57b51;
+  color: white;
+  padding: 7% 15%;
+}
+
+.rules {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Benefits section */
+
+.benefits-container {
+  padding: 7% 15%;
+  background-color: white;
+  color: black;
+}
+
+.benefits-items {
+  text-align: left;
+  margin-bottom: 7%;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.icon {
+  color: #d63447;
+  padding-bottom: 2rem;
+  float:right;
+  padding-right: 3%;
+}
+
+/* Footer section */
+
+.footer-container {
+  padding: 4% 12% 2%;
+  background-color: #d63447;
+}
+
+.socials {
+  padding: 0 5%;
+  color: white;
+}
+
+.fa-copyright {
+  color: #e4e3e3;
+}
+
+.copyright {
+padding-top: 3%;
+  color: #e4e3e3;
+  font-weight: 100;
+}
+
+
+
+@media (max-width: 1000px) {
+  .step-numbers {
+    width: 20%;
+  }
+
+  .icon {
+    color: #d63447;
+    padding-bottom: 2rem;
+  float: none;
+  padding-right: 0;
+  }
+
+
+  .benefits-items {
+    text-align: center;
+    padding: 10%;
+  }
+
+  .socials {
+    padding: 10% 5%;
+    color: white;
+  }
+}
